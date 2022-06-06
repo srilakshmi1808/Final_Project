@@ -52,9 +52,6 @@ def training():
 
     options = [
         'Blotch_Apple',
-                   'Cauliflower_Alternaria_Leaf_Spot',
-                   'cauliflower_bacterial_soft_rot',
-'cauliflower_black_leg',
 'Citrus_Black_spot',
 'Citrus_Canker',
 'Citrus_Greening',
@@ -329,18 +326,6 @@ def result():
         print("Blotch_Apple")
         out="Blotch_Apple"
         pre ="Sprays of strobilurin fungicide, kresxim methyl or trifloxystrobin"
-    elif result[0][1] == 1:
-        print("Cauliflower_Alternaria_Leaf_Spot")
-        out="Cauliflower_Alternaria_Leaf_Spot"
-        pre = "Fungicides are available to help control Alternaria leaf spot include chlorothalonil and azoxystrobin"
-    elif result[0][2] == 1:
-        print("cauliflower_bacterial_soft_rot")
-        out = "cauliflower_bacterial_soft_rot"
-        pre = "Clean and spray storage walls and floors with copper sulfate solution (1 lb/5 gal water). Bactericides such as Clorox, Lysol, and quaternary ammonium products"
-    elif result[0][3] == 1:
-        print("cauliflower_black_leg")
-        out = "cauliflower_black_leg"
-        pre = "Rovral pesticides are most effective when used in combination with cultural control strategies."
     elif result[0][4] == 1:
         print("Citrus_Black_spot")
         out = "Citrus_Black_spot"
