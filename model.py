@@ -24,9 +24,6 @@ train_generator = train_datagen.flow_from_directory(
         batch_size=batch_size,
         # Specify the classes explicitly
         classes = ['Blotch_Apple',
-                   'Cauliflower_Alternaria_Leaf_Spot',
-                   'cauliflower_bacterial_soft_rot',
-'cauliflower_black_leg',
 'Citrus_Black_spot',
 'Citrus_Canker',
 'Citrus_Greening',
